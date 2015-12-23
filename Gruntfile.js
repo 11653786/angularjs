@@ -17,11 +17,19 @@ module.exports = function (grunt) {
             }
         },
         //jsdoc,代码规范
-        jshint:{
+        jshint: {
             //检查的文件
-            build:["Gruntfile.js","js/*.js"],
-            options:{
-                jshintrc:".jshintrc"
+            build: ["Gruntfile.js", "js/*.js"],
+            options: {
+                jshintrc: ".jshintrc"
+            }
+        },
+        //watch真正自动化的插件,自动化的任务和文件配置,不用每次都打grunt命令
+        watch: {
+            build: {
+                files: ['js/*.js'],
+                tasks: ["jshint", "uglify"],
+                options: {spawn: false}
             }
         }
     });
@@ -29,7 +37,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     //加载jsdoc
     grunt.loadNpmTasks('grunt-contrib-jshint');
+    //watch会执行之前的东西
+    grunt.loadNpmTasks('grunt-contrib-watch');
     //把所有的uglify注入进来
-    grunt.registerTask("default", ['jshint','uglify']);
+    grunt.registerTask("default", ['jshint', 'uglify', 'watch']);
 };
 //生成的方法就是在当前文件夹下打grunt命令
