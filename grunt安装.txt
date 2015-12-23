@@ -1,0 +1,3 @@
+npm install -g grunt-cli
+npm init
+npm install grunt-contrib-uglify --save-dev
