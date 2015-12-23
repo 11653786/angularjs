@@ -1,20 +1,10 @@
-
 {
-  "name": "test",
-  "version": "0.1.1",
+  "name": "develop",
+  "version": "0.0.1",
   "authors": [
-    "zhangzhi <zzhi.net@gmail.com>"
+    "yangtao <11653786@qq.com>"
   ],
-  "main": "main.js",
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "app/bower_components",
-    "test",
-    "tests"
-  ],
+  "ignore": [],
   "dependencies": {
     "jquery": "1.7.2"
   }
