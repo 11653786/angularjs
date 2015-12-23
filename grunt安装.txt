@@ -1,7 +1,11 @@
+http://www.cnblogs.com/wangfupeng1988/p/4561993.html(包含了gruntFile全过程)
 npm install -g grunt-cli
 npm init
+安装uglify
 npm install grunt-contrib-uglify --save-dev
-http://www.cnblogs.com/wangfupeng1988/p/4561993.html(包含了gruntFile全过程)
+安装jshint
+npm install grunt-contrib-jshint --save-dev
+
 生成配置文件以后
 package.json中:"main": "Gruntfile.js",就是gruntfile.js的配置文件(注意Gruntfile.js要自己创建不会自动生成,而且名字必须是Gruntfile.js)
 package.json中有如下,已经说明依赖成功
