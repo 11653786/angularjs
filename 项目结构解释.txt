@@ -1,4 +1,5 @@
 .bowerrc文件,配置bower在当前项目的安装路径
+bower.json,相当于maven的pom,bower安装完成之后,使用git窗口,bower install执行
 http://segmentfault.com/a/1190000000349555
 1.完成之后windows使用git窗口,执行bower install jquery,安装jquery
 

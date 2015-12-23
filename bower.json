@@ -1,11 +1,13 @@
 {
   "name": "develop",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "authors": [
     "yangtao <11653786@qq.com>"
   ],
   "ignore": [],
   "dependencies": {
-    "jquery": "1.7.2"
+    "jquery": "2.1.4",
+    "angularjs":"1.4.8",
+    "requirejs":"2.1.22"
   }
 }
