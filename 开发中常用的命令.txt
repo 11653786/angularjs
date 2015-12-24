@@ -1,2 +1,3 @@
+环境 nodejs+git+bower+grunt+yeoman
 下包 bower install 包名
 启动服务 grunt default(可配置)
