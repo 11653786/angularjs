@@ -11,7 +11,7 @@ module.exports = function (grunt) {
             },
             build: {
                 //源路径
-                src: "js/test.js",
+                src: "js/*.js",
                 //发布路径
                 dest: "build/ <%= pkg.name %>.min.js"
             }
@@ -19,7 +19,8 @@ module.exports = function (grunt) {
         //jsdoc,代码规范
         jshint: {
             //检查的文件
-            build: ["Gruntfile.js", "js/*.js"],
+            pom: ["Gruntfile.js"],
+            jsfile: ["js/*.js"],
             options: {
                 jshintrc: ".jshintrc"
             }
