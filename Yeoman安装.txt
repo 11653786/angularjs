@@ -1,0 +1,5 @@
+npm install -g yo
+安装Yeoman时会自动安装Grunt和Bower
+$ npm install -g generator-angular
+安装yeman客户端
+npm install -g yo grunt-cli bower

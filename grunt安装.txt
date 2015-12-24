@@ -8,6 +8,8 @@ npm install grunt-contrib-uglify --save-dev
 npm install grunt-contrib-jshint --save-dev
 安装watch
 npm install grunt-contrib-watch --save-dev
+安装tomcat
+npm install grunt-contrib-connect --save-dev
 生成配置文件以后
 package.json中:"main": "Gruntfile.js",就是gruntfile.js的配置文件(注意Gruntfile.js要自己创建不会自动生成,而且名字必须是Gruntfile.js)
 package.json中有如下,已经说明依赖成功
