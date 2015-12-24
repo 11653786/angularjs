@@ -65,7 +65,7 @@ http://www.cnblogs.com/lhb25/archive/2013/01/28/grunt-for-javascript-project-c.h
         //把所有的uglify注入进来
         //尼玛这个watch就结束不了,一直打命令把,
       //  grunt.registerTask("server", ['jshint', 'uglify', 'watch','connect']);
-        //watch尼玛有问题一直running不结束所以先不管他
-         grunt.registerTask("server", ['jshint', 'uglify','connect']);
+        //watch尼玛有问题一直running不结束所以先
+        grunt.registerTask("default", ['jshint', 'uglify','connect']);
     };
 //生成的方法就是在当前文件夹下打grunt命令
