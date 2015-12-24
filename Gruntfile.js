@@ -67,5 +67,6 @@ http://www.cnblogs.com/lhb25/archive/2013/01/28/grunt-for-javascript-project-c.h
       //  grunt.registerTask("server", ['jshint', 'uglify', 'watch','connect']);
         //watch尼玛有问题一直running不结束所以先
         grunt.registerTask("default", ['jshint', 'uglify','connect']);
+        //项目启动命令 grunt defult
     };
 //生成的方法就是在当前文件夹下打grunt命令
