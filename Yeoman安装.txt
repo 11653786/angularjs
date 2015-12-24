@@ -25,3 +25,7 @@ npm install -g yo grunt bower
 npm install -g yo grunt-cli
 angularjs生成器,自动生成项目结构用的
 npm install -g generator-angular
+
+//想输入yo有用的话就要找到
+npm包下的yeoman 项目的yo文件
+cd到 D:\npm\jar（npm安装路径）,有一个yo文件,输入yo命令就可以了
