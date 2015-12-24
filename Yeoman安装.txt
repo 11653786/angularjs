@@ -1,5 +1,27 @@
-npm install -g yo
-安装Yeoman时会自动安装Grunt和Bower
-$ npm install -g generator-angular
+
+http://m.blog.csdn.net/blog/changjn/42677941
+安装yeoman,
+在windows下要先安装ruby
+
+1.安装ruby
+下载ruby,然后安装
+2.安装ruby淘宝镜像(因为国内封网的原因)，更换代理地址
+gem sources --remove https://rubygems.org/
+gem sources -a https://ruby.taobao.org/
+gem sources –l (注意：这个是L，不是1)
+3.然后安装pass：
+gem install sass
+4.安装compass：
+gem install compass
+5.安装 python 环境
+http://www.python.org/download/
+
+
+都安装完成之后
+npm install -g yo grunt bower
+//安装yeoman
+//npm install -g yo
 安装yeman客户端
-npm install -g yo grunt-cli bower
+npm install -g yo grunt-cli
+angularjs生成器,自动生成项目结构用的
+npm install -g generator-angular
